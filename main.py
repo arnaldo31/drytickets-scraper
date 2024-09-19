@@ -222,7 +222,7 @@ class Crawl:
         
         LOCATION = JSON['location']['address']
         address_region = LOCATION['addressRegion']
-        city_name = 'Melbourne'
+        city_name = 'N/A'
         if address_region == 'VIC':
             city_name = 'Melbourne'
         elif address_region == 'NSW':
@@ -235,7 +235,8 @@ class Crawl:
             city_name = 'Perth'
         else:
             city_name = LOCATION.get('addressLocality', 'N/A')
-        
+        if city_name == None:
+            city_name = 'N/A'
         dic['city'] = city_name
         dic['weblink'] = url
         organized = soup.h1.parent.p.get_text(' ',strip=True)
