@@ -23,9 +23,3 @@ jobs:
 
       - name: Run Flicks Scraper
         run: python main.py
-
-      - name: Upload Log File
-        uses: actions/upload-artifact@v3
-        with:
-          name: scraper-log
-          path: scraper.log
