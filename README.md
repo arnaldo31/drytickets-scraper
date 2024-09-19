@@ -17,13 +17,15 @@ This script scrapes [www.flicks.com.au](https://drytickets.com.au/) and save to 
 5. Loop through new event urls, open "URL" and scrape below data
 
 ## Fields
-event_name = [Title]
-event_description = [Title]
-event_start_date = [Date]
-event_start_time = [Time]
-venue_latlong = blank
-city = see formula below
-weblink = page [URL]
-org = [Organised by]
-language = blank
-venue = [Address]
+- event_name = [Title]
+- event_description = [Title]
+- event_start_date = [Date]
+- event_start_time = [Time]
+- venue_latlong = blank
+- city = see formula below
+- weblink = page [URL]
+- org = [Organised by]
+- language = blank
+- venue = [Address]
+
+
