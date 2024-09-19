@@ -1,6 +1,6 @@
 # Drytickets Scraper
 
-This script scrapes [https://drytickets.com.au/](https://drytickets.com.au/) and save to this [google sheets](https://docs.google.com/spreadsheets/d/1fMD-Ld9LOn8LctXuaFYywv3mY_LugjS1syd-bCizer0/edit?pli=1&gid=1789520897#gid=1789520897)
+This script scrapes [https://drytickets.com.au/](https://drytickets.com.au/) and save to this [google sheets]([https://docs.google.com/spreadsheets/d/1fMD-Ld9LOn8LctXuaFYywv3mY_LugjS1syd-bCizer0/edit?pli=1&gid=1789520897#gid=1789520897](https://docs.google.com/spreadsheets/d/1HjsWyf8EJARJi192xB8gJIlc5aCPM3xQrPGPHOFUqv8/edit?gid=1814938593#gid=1814938593))
 
 # Run time of script.
    - 23:58 UTC
