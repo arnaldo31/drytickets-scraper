@@ -10,13 +10,16 @@ This script scrapes [https://drytickets.com.au/](https://drytickets.com.au/) and
 - GOOGLE SHEETs
 
 ## Workflow of script
+
 1. Go to https://drytickets.com.au
 2. Scroll to section "Events by date"
 3. Scrape all event urls and store in google sheet - Google sheet tab name "Today"
 4. Compare all event urls in Google sheet tab name "Yesterday" and find new events
 5. Loop through new event urls, open "URL" and scrape below data
+6. Enter scraped data in google sheet tab "New_events"
 
 ## Fields
+
 - event_name = [Title]
 - event_description = [Title]
 - event_start_date = [Date]
