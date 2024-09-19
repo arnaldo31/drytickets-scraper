@@ -83,7 +83,7 @@ class Crawl:
             
         df = pandas.DataFrame(save)
         df = df.drop_duplicates()
-        df = df.replace(np.NAN,'')
+        df = df.replace(np.nan,'')
         
         while True:
             try:
@@ -110,7 +110,7 @@ class Crawl:
         
         df = pandas.DataFrame(self.NEW_MOVIES)
         df = df.drop_duplicates()
-        df = df.replace(np.NAN,'')
+        df = df.replace(np.nan,'')
         
         while True:
             try:
