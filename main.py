@@ -189,7 +189,7 @@ class Crawl:
             if '"Event"' in script.text or "'Event'" in script.text:
                 EVENTS = json.loads(script.text.strip())
         
-        for event in EVENTS[:11]:
+        for event in EVENTS:
             url = event.get('url')
             try:
                 self.scrape_event_info(url=url)
