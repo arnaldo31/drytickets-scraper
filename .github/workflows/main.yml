@@ -2,7 +2,7 @@ name: Scrape_drytickets
 
 on:
   schedule:
-    - cron: "0 1 * * *"  # Every day at 1 AM
+    - cron: "0 1 * * *"  # Run at 1 AM every day
   workflow_dispatch:
 
 jobs:
@@ -16,7 +16,7 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
-          python-version: '3.8'  # Specify the desired Python version
+          python-version: '3.9'  # Updated to Python 3.9
 
       - name: Install dependencies
         run: pip install -r requirements.txt
