@@ -1,4 +1,4 @@
-# drytickets Scraper
+# Drytickets Scraper
 
 This script scrapes [https://drytickets.com.au/](https://drytickets.com.au/) and save to this [google sheets](https://docs.google.com/spreadsheets/d/1fMD-Ld9LOn8LctXuaFYywv3mY_LugjS1syd-bCizer0/edit?pli=1&gid=1789520897#gid=1789520897)
 
