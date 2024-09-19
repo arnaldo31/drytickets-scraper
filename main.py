@@ -235,7 +235,7 @@ class Crawl:
             city_name = 'Perth'
         else:
             city_name = LOCATION.get('addressLocality', 'N/A')
-        if city_name == None:
+        if city_name == None or city_name == '':
             city_name = 'N/A'
         dic['city'] = city_name
         dic['weblink'] = url
