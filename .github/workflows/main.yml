@@ -22,7 +22,7 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: Run Flicks Scraper
-        run: python update_yesterday.py
+        run: python main.py
 
       - name: Upload Log File
         uses: actions/upload-artifact@v3
