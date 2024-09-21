@@ -78,6 +78,7 @@ class Crawl:
             dic['Address'] = item['venue']
             dic['Date'] = item['event_start_date']
             dic['Organised by'] = item['org']
+            dic['Description'] = item['event_description']
             dic['Banner url'] = item['banner_url']
             save.append(dic)
             
