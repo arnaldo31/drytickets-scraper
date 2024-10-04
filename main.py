@@ -108,7 +108,10 @@ class Crawl:
                 continue
             
     def update_new_movies(self):
-        
+
+        if self.NEW_MOVIES == []:
+            return None
+          
         df = pandas.DataFrame(self.NEW_MOVIES)
         df = df.drop_duplicates()
         df = df.replace(np.nan,'')
